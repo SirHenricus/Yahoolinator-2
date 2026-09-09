@@ -1,0 +1,71 @@
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="./yahoolination.js"></script>
+
+<script>
+    function openInNewTab(url) {
+  window.open(url, '_blank').focus();
+    }
+    
+    function openyahoo() {
+        openInNewTab(document.getElementById("theyahoo").src)
+    }
+
+</script>
+
+<title> YAHOOLINATOR 2! - Randomized Yahoo Wayback Page</title>
+
+<style>
+
+body {
+ background-color: antiquewhite;
+}
+
+.yahooscrn {
+    width: 1000;
+    height: 500;
+    
+    background-color: powderblue;
+
+    border-style: solid;
+    /** border-radius: 3px; **/
+    border-width: 3px;
+
+}
+
+</style>
+
+<br>
+<br>
+
+<center>
+
+<h1> THE YAHOOLINATOR 2! </h1>
+<h2> Randomized Yahoo Wayback Machine Pages </h2>
+<hr>
+
+<br>
+
+<h3> Click the "Randomize!" button to get a randomzied Wayback Machine capture of the Yahoo website between 1996 and 2006. Also, make sure to wait for everything to load first after you click.</h3>
+
+<br>
+
+<div style="width: 300; border-style: solid; border-width: 3px; background-color: lightblue;"> <h3 id="datedisp"> October 17, 1996 </h3></div>
+<br>
+<iframe class="yahooscrn" id="theyahoo" src="https://web.archive.org/web/19961017235908/yahoo.com"></iframe>
+
+<br>
+<hr>
+
+<button onclick="javascript:yahoorandom();"> <h4>RANDOMIZE!</h4> </button>
+
+<br>
+<br>
+
+<a style="color: darkblue; text-decoration: underline;" onclick="openyahoo();"><b> Open In A New Tab </b></a>
+
+<br>
+<hr>
+</center>
+
+
+<b> Made By <a href="https://github.com/SirHenricus">DSHenry</a></b>
