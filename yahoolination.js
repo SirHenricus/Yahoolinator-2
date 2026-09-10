@@ -41,7 +41,7 @@ function yahoorandom() {
 
     var FULLURL = "https://web.archive.org/web/"
 
-    //sometimes replace '/http://www.yahooligans.com/' with '/http://www2.yahooligans.com/' to increase variety
+    //sometimes replace '/http://www.yahoo.com/' with '/http://www2.yahoo.com/' to increase variety
     if (randomnumber(0,1)) {
         yahoourlB = "/http://www2.yahoo.com/";
         console.log("using www2!")
