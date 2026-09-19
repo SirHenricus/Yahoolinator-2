@@ -6,6 +6,8 @@ A year ago, I made this HTML project that browses random snapshots of the Yahool
 
 What this project does is show you a random Wayback Machine capture of the Yahoo website from 1998 to 2006 everytime you click the "Randomize!" Button. You can also open up the page with the "Open In A New Tab" Button.
 
+You can find the original Yahoolinator [here](https://github.com/SirHenricus/The-Yahoolinator)
+
 ![demonstration picture](demo.png)
 
 
